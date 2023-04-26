@@ -6,7 +6,7 @@ function getAge(e) {
   e.preventDefault();
   const regex = /^[a-zA-Z]+$/;
   if (!regex.test(name.value)) {
-    result.innerHTML = '영어만 입력 가능합니다.';
+    result.innerHTML = '英語で書いてください';
     name.value = '';
     return;
   } else {
